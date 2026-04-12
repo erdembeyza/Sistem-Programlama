@@ -1,0 +1,36 @@
+Sistem Programlama
+Lab4
+Bu çalışmada derste gördüğümüz önbelleksiz girdi/çıktı fonksiyonları olan open, read, write, lseek, close fonksiyonları kullanılacaktır. Hata mesajları ve standart çıktıya sonuçları yazma
+Yapılacak adımlar
+
+•Aşağıda belirtilen isimde bir klasör oluşturunuz:
+    "İsminiz-Soyisminiz-Lab4"
+•Yeni oluşturduğunuz klasöre gidiniz.
+•Aşağıda belirtilen özelliklere sahip bir C programı yazınız.
+ - Programınızın kaynak dosyasının ismi "prog4.c" olmalı.
+ - Programınızın calıştırabilir halinin ismi "prog4" olmalıdır.
+•Programınız argüman olarak iki dosya ismi alacaktır. Dosyalardan ilki girdi dosyası, ikinci ise çıktı dosyasıdır.
+•Dosya isimleri verilemez ise, programınız anlamlı bir hata mesajı vererek
+sonlanacaktır.
+•Programınız ilk verilen girdi dosyasını açacaktır, bu sebeple bu dosyanın mevcut olması gerekmektedir. Bu dosya bir adet cumle icermelidir.
+•Programınız ikinci verilen çıktı dosyası isminde yeni bir dosya oluşturacaktır.
+•Çıktı dosyasının ilk satırına aşağıdaki cümle yazılacaktır.
+"Bu dosya (isim soyisim) tarafindan hazirlanmistir."
+•(isim soyisim) kısmına kendi isminizi ve soyisminizi yazınız.
+•Daha sonra çıktı dosyasına, girdi dosyasında bulunan cümlenin tek numaralı kelimeleri yazılacaktır (1., 3. , 5... kelime). Cümleye ait diğer kelimeler ise yazılmayacaktır.
+•Programınız açmış olduğu dosyaları kapatıp sonlanacaktır.
+Not1: Hata durumlarını kontrol etmeyi ve uygun/açıklayıcı hata mesajları vermeyi unutmayınız.
+Not2: Verilen dosyanın sadece İngiliz alfabesinde bulunan küçük/büyük harfler ve basit noktalama işaretlerini (. , ? !) içerdiğini varsayanız. Cümle yazım kurallarına uygun olacaktır. Dosya içerisinde sadece iki cümle bulunacaktır.
+
+Örnek: Verilen "dosya1.txt" girdi dosyasının aşağıda belirtilen metni içerdiğini farzedelim:
+
+Bu dosya tek cumleden olusmaktadir ve fazla kelime icermektedir.
+
+Bu dosyayı aşağıdaki şekilde çalıştırırsak:
+
+./prog4 dosya1.txt dosya2.txt
+
+Oluşturulan "dosya2.txt" çıktı dosyası aşağıda belirtilen metni içermelidir:
+
+Bu dosya Dincer Erbas tarafindan yazilmistir.
+Bu tek olusmaktadir fazla icermektedir.
