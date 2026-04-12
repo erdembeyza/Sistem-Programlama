@@ -1,0 +1,23 @@
+Sistem Programlama
+Lab3 - Calisma2
+Bu çalışmada derste gördüğümüz önbelleksiz girdi/çıktı fonksiyonları olan open, read, write, lseek, close fonksiyonları kullanılacaktır. Hata mesajları ve standart çıktıya sonuçları yazmak için printf fonksiyonunu kullanabilirsiniz. Başka bir kütüphane veya fonksiyon kullanmayınız.
+Yapılacak adımlar
+- Aşağıda belirtilen isimde bir klasör oluşturunuz:
+    "İsminiz-Soyisminiz-Lab3-Calisma2"
+- Yeni oluşturduğunuz klasöre gidiniz.
+- Aşağıda belirtilen özelliklere sahip bir C programı yazınız.
+ - Programınızın kaynak dosyasının ismi "prog3.c" olmalı.
+ - Programınızın çalıştırılabilir halinin ismi "prog3" olmalı.
+- Programınız argüman olarak bir dosya ismi alacaktır.
+- Dosya ismi verilemez ise, programınız anlamlı bir hata mesajı vererek
+sonlanacaktır.
+- Programınız verilen dosyayı açacaktır.
+- Programınız ayrıca “metin_sesli_harfsiz.txt” isminde yeni bir dosya oluşturacaktır.
+- “metin_sesli_harfsiz.txt” dosyası girdi olarak verilen dosyadaki metnin sesli harfleri hariç diğer harfleri ve noktalama işaretlerini içerecektir.
+- Verilen dosyanın sadece İngiliz alfabesinde bulunan küçük/büyük harfler ve basit noktalama işaretlerini (. , ? !) içerdiğini varsayanız.
+- Programınız açılı dosyaları kapatarak sonlanacaktır.
+Örnek: Verilen dosya aşağıda belirtilen metni içeriyorsa:
+Bu bir dosya.
+
+“metin_sesli_harfsiz.txt” dosyası aşağıda belirtilen metni içermelidir:
+B br dsy.
