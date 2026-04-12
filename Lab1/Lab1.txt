@@ -11,4 +11,3 @@ Sinyaller ve Sistemler
 DB
 Gömülü Sistemler
 Görüntü İşleme
-
