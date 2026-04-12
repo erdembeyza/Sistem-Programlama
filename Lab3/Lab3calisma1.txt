@@ -1,0 +1,20 @@
+
+Sistem Programlama
+Lab3 - Calisma1
+Bu çalışmada derste gördüğümüz önbelleksiz girdi/çıktı fonksiyonları olan open, read, write, lseek, close fonksiyonları kullanılacaktır. Hata mesajları ve standart çıktıya sonuçları yazmak için printf fonksiyonunu kullanabilirsiniz. Başka bir kütüphane veya fonksiyon kullanmayınız.
+
+Yapılacak adımlar
+- Aşağıda belirtilen isimde bir klasör oluşturunuz:
+    "İsminiz-Soyisminiz-Lab3-Calisma1"
+- Yeni oluşturduğunuz klasöre gidiniz.
+- Aşağıda belirtilen özelliklere sahip bir C programı yazınız.
+ - Programınızın kaynak dosyasının ismi "prog2.c" olmalı.
+ - Programınızın çalıştırılabilir halinin ismi "prog2" olmalı.
+- Programınız argüman olarak bir dosya ismi alacaktır. Dosya ismi verilemez ise, programınız anlamlı bir hata mesajı vererek sonlanacaktır.
+- Programınız verilen dosya adında bir dosya oluşturacak ve bu dosyaya aşağıdaki metni yazacaktır:
+“Bu dosya yeni olusturuldu.”
+- Programınız açılı dosyayı kapatacaktır.
+- Daha sonra programınız dosyayı tekrar açacak ve bu sefer dosyanın sonuna aşağıdaki satırı yazacaktır:
+- “Dosyanin ikinci satiri.”
+- Programınız açılı dosyayı kapatacaktır.
+- Son olarak oluşturduğunuz metin dosyasının içeriğini kontrol ediniz.
