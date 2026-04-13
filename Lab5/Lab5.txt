@@ -1,0 +1,18 @@
+Sistem Programlama
+Lab6 - Calisma
+Bu çalışmada derste gördüğümüz önbelleksiz girdi/çıktı fonksiyonları olan open, read, write, lseek, close, stat, umask, chmod 
+fonksiyonları kullanılacaktır. Hata mesajları ve standart çıktıya sonuçları yazmak için printf fonksiyonunu kullanabilirsiniz. 
+Başka bir kütüphane veya fonksiyon kullanmayınız.
+
+Yapılacak adımlar
+- Programınız argüman olarak bir dosya ismi alacaktır. Dosya ismi verilemez ise, programınız anlamlı bir hata mesajı vererek sonlanacaktır.
+- Programınız verilen dosya isminde bir dosya oluşturacak ve bu dosyanın izinlerini "Sadece dosya sahibi okur/yazar" şeklinde ayarlayacaktır.
+- Daha sonra oluşturulan dosyanın içine aşağıdaki metin yazılacaktır:
+“Bu dosya sadece (isim soyisim) tarafindan okunabilir."
+- Programınız açılı dosyayı kapatacaktır.
+- Daha sonra programınız dosyayı tekrar açacak ve dosyanın izinlerini değiştirerek "Dosya sahibi okur/yazar, grup arkadaşları yazar, 
+diğerleri okur" olarak ayarlayacaktır.
+- Daha sonra dosyanın sonuna aşağıdaki satır eklenecektir.
+- “Dosyanin izinler degisti, artik grup arkadaslarim da yazabiliyor.”
+- Programınız açılı dosyayı kapatacaktır.
+- Son olarak oluşturduğunuz metin dosyasının içeriğini ve izinlerini kontrol ediniz.
